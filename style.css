@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: darkmagenta
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+#story,
+#skill,
+#pic,
+#kontakts {
+    width: 100vw;
+    max-width: 100%;
+    padding: 20px;
+    background-color: darkmagenta;
+
+}
+
+
+div {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
+
+#img111 {
+    width: 100%;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+
+
+
+div#kontakts#img {
+    height: 50px;
+    padding: 10px;
+}
+
+#kontakts {
+    width: 100vw;
+    height: 80px;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.menu {
+    margin: 0 20px 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.menu > li {
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    opacity: 10;
+    height: 60px;
+}
+
+.story {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-height: 100vh;
+    max-width: 100%;
+
+}
+
+#story {
+    min-height: 100vh;
+
+
+}
+
+.portrait {
+    box-sizing: border-box;
+    grid-column-start: ;
+    margin: 100px 30px 100px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.text {
+
+    grid-column-start: 2;
+    box-sizing: border-box;
+    margin: 5px 10px 10px 10px;
+    padding: 10px 10px 5px 5px;
+
+    background-color: darkmagenta;
+
+}
+
+
+header {
+
+    font-size: 23px;
+    margin: 50px 10px 10px 1px;
+    padding: 10px 10px 10px 1px;
+
+}
+
+.gallery {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+
+
+
+}
+
+.scale {
+    transition: 0.5s;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.gallery img {
+    max-width: 70%;
+
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(1fr, 3fr);
+    grid-gap: 90px;
+}
+
+#insta {
+    max-width: 5%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px
+}
+#behan{max-width: 5%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px}
+#face {
+    max-width: 5%;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 20px
+    
+}
+
+#img011 {
+    max-width: 5%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 20px;
